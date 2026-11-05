@@ -691,3 +691,11 @@ fun ChatScreenPreview() {
         ChatScreen(viewModel = ChatViewModel())
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun QuickSuggestionsPreview() {
+    MaterialTheme {
+        QuickSuggestionsRow(onSuggestionSelected = {})
+    }
+}
